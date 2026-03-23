@@ -1,0 +1,14 @@
+[project]
+name = "google-sso-custom-auth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "google-auth",
+    "firebase-admin",
+    "python-dotenv",
+    "pydantic",
+]
