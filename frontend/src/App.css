@@ -1,0 +1,96 @@
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.status {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.error {
+  color: #dc2626;
+  background: #fef2f2;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.result {
+  background: #f0fdf4;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #bbf7d0;
+}
+
+.label {
+  font-weight: 600;
+  color: #16a34a;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.uid-label {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.uid {
+  display: block;
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  word-break: break-all;
+  margin-bottom: 1rem;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.google-login {
+  background: #4285f4;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.google-login:hover {
+  background: #3367d6;
+}
+
+.logout {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.logout:hover {
+  background: #dc2626;
+}
