@@ -1,7 +1,7 @@
 # Google SSO + Firebase Custom Auth
 
 Google SSOを用いたFirebaseカスタム認証のサンプルアプリ。
-個人情報を一切保存せず、GoogleアカウントのIDをHMAC-SHA256で匿名化してFirebaseに登録するプライバシーファーストな設計。
+e-mailアドレスなどを保存せず、GoogleアカウントのIDをHMAC-SHA256で匿名化してFirebaseに登録するプライバシーファーストな設計。
 
 ## 仕組み
 
